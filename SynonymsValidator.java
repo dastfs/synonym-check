@@ -10,8 +10,8 @@ public class SynonymsValidator {
 
     public static void main(String[] args) {
 
-        var filePath = Path.of("file1.txt");
-        var resultFile = Path.of("result.txt");
+        var filePath = Path.of("example.in");
+        var resultFile = Path.of("example.out");
 
         List<String> lines = new ArrayList<>();
         try {
