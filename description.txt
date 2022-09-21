@@ -1,0 +1,49 @@
+a list is given
+
+the first number is the number of test cases "synonym library - pairs for testing"
+in each test case ->
+    the first number is the number of pairs of synonyms, then the list of pairs of synonyms
+    the second number is the number of pairs of words for checks, then the list of pairs for checks
+
+you need to display synonym in the answer in the case when the words are synonyms, different in the case when they are not synonyms
+
+words are synonyms in such cases:
+1) when they are completely identical
+2) if word A is synonymous with B, then B is synonymous with A
+3) if word A is synonymous with word B, and B is synonymous with word C, then A and C are synonyms
+4) case insensitive, same - Same are synonyms
+
+example:
+
+Input -
+2
+four
+big large
+large huge
+small little
+apple banana
+6
+same same
+big huge
+big big
+apple peach
+big tall
+peach PEACH
+5
+wood FORest
+meadoW PrAirIe
+WOOD Lumber
+lumber forest
+lumber forest
+2
+wood LUMBER
+mEADow fire
+
+Output -
+synonyms
+synonyms
+synonyms
+different
+different
+synonyms
+synonyms
